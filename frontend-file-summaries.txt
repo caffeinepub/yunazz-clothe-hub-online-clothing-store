@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, theme provider, and profile setup modal integration for all routes.",
+  "frontend/src/components/Layout.tsx": "Layout component with responsive header, navigation, cart indicator, user profile display, mobile menu, and footer.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog that prompts authenticated users to create their profile with name and email on first login, using undefined for optional fields instead of null.",
+  "frontend/src/pages/HomePage.tsx": "Home page with hero banner, product grid, search and filter functionality with proper FilterOptions type handling using undefined instead of null.",
+  "frontend/src/pages/ProductDetailPage.tsx": "Product detail page with image gallery, size/color selection, quantity picker, and add to cart functionality.",
+  "frontend/src/pages/CartPage.tsx": "Shopping cart page displaying cart items with images, quantities, prices, and checkout button with order summary.",
+  "frontend/src/pages/CheckoutPage.tsx": "Checkout page with shipping information form and Stripe payment integration for completing purchases.",
+  "frontend/src/pages/PaymentSuccessPage.tsx": "Success page displayed after successful Stripe payment with confirmation message and navigation options.",
+  "frontend/src/pages/PaymentFailurePage.tsx": "Failure page displayed when Stripe payment fails with retry and navigation options.",
+  "frontend/src/pages/AdminPage.tsx": "Admin dashboard with product management (CRUD operations), image uploads, and Stripe configuration settings.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including products, cart, user profiles, admin functions, and Stripe integration.",
+  "frontend/src/index.css": "Global styles with OKLCH color system optimized for fashion e-commerce with clean, modern aesthetic in light and dark modes."
+}
